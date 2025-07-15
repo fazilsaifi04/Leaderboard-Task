@@ -12,11 +12,16 @@ mongoose.connect(process.env.MONGO_URI)
 
 // Middleware
 app.use(express.json());
+
 app.use(cors({
-  origin: ['http://localhost:3000','https://leaderboard-task-lgbbqhmad-md-fazils-projects.vercel.app/'], // Replace with actual frontend URL
+  origin: [
+    'http://localhost:3000',
+    'https://leaderboard-task-one.vercel.app'
+  ],
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   credentials: true
 }));
+
 
 // Health check
 app.get('/', (req, res) => {
