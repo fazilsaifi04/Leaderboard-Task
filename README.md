@@ -26,7 +26,7 @@ Deployment: Netlify (Frontend), Render/Heroku (Backend), MongoDB Atlas
 How to Run Locally:
 
 Clone the repository:
-git clone https://github.com/your-username/repository-name.git
+git clone (https://github.com/fazilsaifi04/Leaderboard-Task/)
 
 Backend:
 
@@ -45,4 +45,4 @@ Install dependencies: npm install
 Run frontend: npm start
 
 Live Demo:
-Frontend URL: [your Netlify/Vercel link]
+Frontend URL: 
